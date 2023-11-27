@@ -5,6 +5,16 @@ Bu basit bir geri sayım uygulamasıdır.
 # Başlarken
 * Javascript ve CSS dosyalarını dahil edin.
 
+## CDN
+### CSS
+```html
+<link rel="stylesheet" href="https://github.com/vedategunduz/countdown/blob/main/style.css">
+```
+### JS
+```html
+<script src="https://github.com/vedategunduz/countdown/blob/main/app.js"></script>
+```
+## HTML
 ```html
 <head>
     .
@@ -21,5 +31,5 @@ Bu basit bir geri sayım uygulamasıdır.
 ```
 * Tarih ayalarını istediğiniz tarhile değiştirin.
 ```js
-    let nextDate = new Date("May 11, 2024 00:00:00");
+let nextDate = new Date("May 11, 2024 00:00:00");
 ```

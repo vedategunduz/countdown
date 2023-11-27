@@ -1,2 +1,25 @@
-# countdown
-Basit geri sayım
+# Countdown
+Bu basit bir geri sayım uygulamasıdır.
+![](https://cdn.discordapp.com/attachments/1175449786565009490/1178694837571178516/d.png)
+
+# Başlarken
+* Javascript ve CSS dosyalarını dahil edin.
+
+```html
+<head>
+    .
+    ..
+    ...
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JS Countdown</h1> <br>
+    <div id="result"></div>
+    <script src="app.js"></script>
+</body>
+```
+* Tarih ayalarını istediğiniz tarhile değiştirin.
+```js
+    let nextDate = new Date("May 11, 2024 00:00:00");
+```

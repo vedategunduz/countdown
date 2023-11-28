@@ -24,6 +24,9 @@ Bu basit bir geri sayım uygulamasıdır.
 </head>
 
 <body>
+    .
+    ..
+    ...
     <h1>JS Countdown</h1> <br>
     <div id="result"></div>
     <script src="app.js"></script>
